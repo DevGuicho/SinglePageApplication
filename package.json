@@ -1,0 +1,23 @@
+{
+  "name": "cientifico",
+  "version": "1.0.0",
+  "description": "Single Page Application",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "start": "webpack serve"
+  },
+  "keywords": [
+    "javascript"
+  ],
+  "author": "Luis Vazquez",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.12.3",
+    "babel-loader": "^8.1.0",
+    "html-webpack-plugin": "^4.5.0",
+    "webpack": "^5.4.0",
+    "webpack-cli": "^4.2.0",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
